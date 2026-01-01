@@ -40,7 +40,7 @@ export const coreTeam: TeamMember[] = [
         lastName: "Banerjee",
         imageURL: "/team/swarnendu-banerjee.jpeg",
         post: "Technical Lead",
-        bio: "System design enthusiast who loves optimizing code performance. Passionate about AI/ML and enjoys reading sci-fi novels.",
+        bio: "System design enthusiast who loves optimizing code performance. Passionate about AI/ML and loves playing open world games.",
         linkedinURL: "https://www.linkedin.com/in/swarnendu-banerjee-78aa49298/",
         githubURL: "https://github.com/Pookie-n-Rookie",
     },
