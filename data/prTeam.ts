@@ -1,0 +1,42 @@
+export const prTeam: TeamMember[] = [
+    {
+        firstName: "Soham",
+        lastName: "Ghosh",
+        imageURL: "/team/pr/soham-ghosh.png",
+        post: "Secretary",
+        bio: "Passionate about research, working hands-on building ML models on print quality analysis using OpenCV, image processing and data-driven tools, while managing technical communication and outreach.",
+    },
+    {
+        firstName: "Joyjeet",
+        lastName: "Sen",
+        imageURL: "/team/pr/joyjeet-sen.png",
+        post: "Core Member",
+        bio: "Along with an interest in communication and outreach, experiences include stage plays, short film making, and modeling in fashion shows as well.",
+        linkedinURL: "https://www.linkedin.com/in/joyjeet-sen-3b2b4b318",
+    },
+    {
+        firstName: "Subha",
+        lastName: "De",
+        imageURL: "/team/pr/subha-de.png",
+        post: "Core Member",
+        bio: "Exploring all the opportunities. Learning coding & finance. Passionate about dancing.",
+        linkedinURL: "https://www.linkedin.com/in/subha-de-2a30a4382",
+    },
+    {
+        firstName: "Bitan",
+        lastName: "Saha",
+        imageURL: "/team/pr/bitan-saha.png",
+        post: "Core Member",
+        bio: "Excited to learn and create projects in Linux, open source and web related fields.",
+        linkedinURL: "https://www.linkedin.com/in/bitan-saha-b01a86367",
+        githubURL: "https://github.com/bitan07-dev",
+    },
+    {
+        firstName: "Arpit",
+        lastName: "Praharaj",
+        imageURL: "/team/pr/arpit-praharaj.png",
+        post: "Core Member",
+        bio: "Looking forward to contributing to the prestigious ACM JU student chapter. Purpose of joining is to maximize skillset and improve management acumen. Eagerly waiting to contribute, learn, grow and network with great set of people.",
+        linkedinURL: "https://www.linkedin.com/in/arpit-praharaj-b5b526383",
+    },
+];
