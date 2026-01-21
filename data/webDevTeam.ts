@@ -1,5 +1,14 @@
 export const webDevTeam: TeamMember[] = [
     {
+        firstName: "Asmit",
+        lastName: "Deb",
+        imageURL: "/team/web Dev/Asmit_Deb.jpg",
+        post: "Secretary",
+        bio: "Loves problem-solving, and working with both frontend and backend technologies, with a special interest in system design. Spends the rest of his time watching movies, playing the guitar and singing.",
+        linkedinURL: "https://www.linkedin.com/in/asmit-deb-bba35b201",
+        githubURL: "https://github.com/asmitdeb",
+    },
+    {
         firstName: "Saptarshi",
         lastName: "Upadhyay",
         imageURL: "/team/web Dev/saptarshi-upadhyay.jpeg",
