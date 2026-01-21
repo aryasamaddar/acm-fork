@@ -44,5 +44,13 @@ export const web3Team: TeamMember[] = [
         linkedinURL: " https://www.linkedin.com/in/shraman-banerjee-385200303/",
         githubURL: " https://github.com/shramanb113",
     },
+    {
+        firstName: "Yasir",
+        lastName: "Ahmad",
+        imageURL: "/team/sponsor/Yasir-Ahmad.jpeg",
+        post: "Core Member",
+        bio: "An enthusiast for great tech and projects. Currently trying to grasp machine learning. Loves to interact and network. You can always find me at my laptop or listening to music or maybe both.",
+        linkedinURL: "https://www.linkedin.com/in/yasir-ahmad-514974329"
+    }
 
 ];

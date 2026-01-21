@@ -7,6 +7,8 @@ import { webDevTeam } from "../data/webDevTeam";
 import { web3Team } from "../data/web3Team";
 import { contentTeam } from "../data/contentTeam";
 import { prTeam } from "../data/prTeam";
+import { logisticsTeam } from "../data/logisticsTeam";
+import { sponsorTeam } from "../data/sponsorTeam";
 import Member from "./Member";
 import CoreTeamBackground from "./backgrounds/CoreTeamBackground";
 import Web3Background from "./backgrounds/Web3Background";
@@ -14,6 +16,8 @@ import WebDevBackground from "./backgrounds/WebDevBackground";
 import MLBackground from "./backgrounds/MLBackground";
 import ContentBackground from "./backgrounds/ContentBackground";
 import PRBackground from "./backgrounds/PRBackground";
+import LogisticsBackground from "./backgrounds/LogisticsBackground";
+import SponsorBackground from "./backgrounds/SponsorBackground";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const teams = [
@@ -59,6 +63,20 @@ const teams = [
         background: <PRBackground />,
         borderColor: "border-cyan-200",
     },
+    {
+        id: "logistics",
+        name: "Logistics",
+        data: logisticsTeam,
+        background: <LogisticsBackground />,
+        borderColor: "border-gray-200",
+    },
+    {
+        id: "sponsor",
+        name: "Sponsor Team",
+        data: sponsorTeam,
+        background: <SponsorBackground />,
+        borderColor: "border-gray-200",
+    }
 ];
 
 export default function Team() {
