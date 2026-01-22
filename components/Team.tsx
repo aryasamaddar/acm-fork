@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { facultySponsor } from "../data/facultySponsor";
 import { coreTeam } from "../data/CoreTeam";
 import { mlTeam } from "../data/mlTeam";
 import { webDevTeam } from "../data/webDevTeam";
@@ -11,6 +12,7 @@ import { logisticsTeam } from "../data/logisticsTeam";
 import { sponsorTeam } from "../data/sponsorTeam";
 import { designTeam } from "../data/designTeam";
 import Member from "./Member";
+import FacultySponsorBackground from "./backgrounds/FacultySponsorBackground";
 import CoreTeamBackground from "./backgrounds/CoreTeamBackground";
 import Web3Background from "./backgrounds/Web3Background";
 import WebDevBackground from "./backgrounds/WebDevBackground";
@@ -23,6 +25,13 @@ import DesignBackground from "./backgrounds/DesignBackground";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const teams = [
+    {
+        id: "faculty",
+        name: "Faculty Sponsors",
+        data: facultySponsor,
+        background: <FacultySponsorBackground />,
+        borderColor: "border-indigo-200",
+    },
     {
         id: "core",
         name: "Core Team",
@@ -101,7 +110,7 @@ export default function Team() {
                 Our Team
             </motion.h1>
 
-            <Tabs defaultValue="core" className="w-full">
+            <Tabs defaultValue="faculty" className="w-full">
                 <TabsList className="flex flex-wrap h-auto gap-2 mb-8 bg-white/80 p-2 rounded-xl shadow-sm">
                     {teams.map((team) => (
                         <TabsTrigger
