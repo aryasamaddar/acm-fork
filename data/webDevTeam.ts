@@ -9,6 +9,15 @@ export const webDevTeam: TeamMember[] = [
         githubURL: "https://github.com/asmitdeb",
     },
     {
+        firstName: "Arya",
+        lastName: "Samaddar",
+        imageURL: "/team/web Dev/Arya-Samaddar.jpeg",
+        post: "Secretary",
+        bio: "Frontend developer with a passion for crafting seamless user experiences. Enjoys experimenting with new web technologies and frameworks.",
+        linkedinURL: "https://www.linkedin.com/in/arya04",
+        githubURL: "https://github.com/aryasamaddar",
+    },
+    {
         firstName: "Saptarshi",
         lastName: "Upadhyay",
         imageURL: "/team/web Dev/saptarshi-upadhyay.jpeg",
@@ -43,6 +52,5 @@ export const webDevTeam: TeamMember[] = [
         bio: "JavaScript enthusiast who explores the latest frameworks. Loves building progressive web apps and enjoys photography.",
         linkedinURL: "https://www.linkedin.com/in/naireet-sadhukhan",
         githubURL: "https://github.com/Paradox117",
-    },
-
+    }
 ];

@@ -24,6 +24,14 @@ export const contentTeam: TeamMember[] = [
         linkedinURL: "https://www.linkedin.com/in/binit-oraon-aaa387349",
     },
     {
+        firstName: "Keya",
+        lastName: "Ghosh",
+        imageURL: "/team/content/Keya-Ghosh.png",
+        post: "Core Member",
+        bio: "",
+        linkedinURL: "https://www.linkedin.com/in/keya-ghosh-91290a356",
+    },
+    {
         firstName: "Abhratanu",
         lastName: "Jana",
         imageURL: "/team/content/abhratanu-jana.png",
@@ -61,5 +69,21 @@ export const contentTeam: TeamMember[] = [
         imageURL: "/team/content/devjyoti-senapati.png",
         post: "Core Member",
         bio: "Content team member contributing to the ACM JU student chapter.",
+    },
+    {
+        firstName: "Simrun",
+        lastName: "Khatun",
+        imageURL: "/team/content/Simrun-Khatun.png",
+        post: "Core Member",
+        bio: "",
+        linkedinURL: "https://www.linkedin.com/in/simrun-khatun-8b4788349",
+    },
+    {
+        firstName: "Sneha",
+        lastName: "Maity",
+        imageURL: "/team/content/Sneha-Maity.png",
+        post: "Core Member",
+        bio: "",
+        linkedinURL: "https://www.linkedin.com/in/sneha-maity-734a40338",
     },
 ];
